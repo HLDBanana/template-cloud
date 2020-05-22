@@ -103,6 +103,14 @@
             <artifactId>httpcore</artifactId>
             <version>4.4.11</version>
         </dependency>
+
+        <!-- 使用JWT token生成验证 -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+
         <!-- springcloud jar -->
         <!-- 注册中心 -->
         <dependency>
